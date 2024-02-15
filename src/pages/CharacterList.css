@@ -1,0 +1,64 @@
+#character-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+#character-card {
+    position: relative;
+    background-color: #484;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px 20px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 2px solid rgb(82, 82, 82);
+}
+
+#character-name {
+    color: #FFF;
+    padding: 2px;
+    width: 90%;
+    font-size: 80%;
+}
+
+#character-portrait {
+    width: 85%;
+    margin-bottom: 5px;
+    border: 2px solid rgb(82, 82, 82);
+}
+
+#character-data {
+    width: 85%;
+    height: 30%;
+    background-color: rgb(247, 225, 198);
+    color: #000;
+    border: 2px solid rgb(82, 82, 82);
+    font-size: 90%;
+}
+
+#character-description {
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#character-power {
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+
+#character-card button {
+    position: absolute;
+    font-weight: bold;
+    border-radius: 10px;
+    bottom: 0;
+    width: 40%;
+}

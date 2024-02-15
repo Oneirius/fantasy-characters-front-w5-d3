@@ -1,0 +1,49 @@
+#create-new-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+#form-outer {
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5ee;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border: 2px solid rgb(82, 82, 82);
+}
+
+#form-header {
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+    background-color: #ddd;
+    height: 25px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#form > button {
+    position: relative;
+    font-weight: bold;
+    width: 80%;
+    height: 20%;
+    border-radius: 10px;
+    transform: translateY(70%)
+}
